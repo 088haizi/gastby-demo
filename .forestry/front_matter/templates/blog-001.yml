@@ -1,4 +1,14 @@
 ---
 label: blog 001
 hide_body: false
-fields: []
+fields:
+- name: demo_001
+  type: text
+  config:
+    required: false
+  label: demo 001
+- name: image_001
+  type: file
+  config:
+    maxSize: 64
+  label: image 001
